@@ -1,9 +1,12 @@
+
 # Exercise 1: Feature-Branch Work ow-Driven Delivery
+
 
 class Compute:
     def __init__(self, operator, operands):
         self.operator = operator
         self.operands = operands
+
 
     def multiply(self):
         if self.operands is None:
@@ -22,3 +25,4 @@ class Compute:
     def exponent(self):
         num_exponent = self.operands[0] ** self.operands[1]
         print(num_exponent)
+
